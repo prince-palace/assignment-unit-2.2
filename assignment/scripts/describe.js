@@ -130,6 +130,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - the value of colorOne and colorTwo should be switched
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -147,6 +148,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - '||' means or, whileas '&&' means and
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +162,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - '<=' checks for less than or equal to and should change to '>='
 if(minAge <= age) {
   console.log('no entry');
 } else {
