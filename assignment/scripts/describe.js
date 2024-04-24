@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable 'name' and set it to the string "Dane"
+// Next we use a conditional to prompt the response "Hi, Mary!" if 'name' is set to Mary
+// Or, if this isn't true it will prompt the response "How do you do?"
+// Because 'name' is not set to "Mary", the console willl log the response "How do you do?"
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create an unspecified variable 'secret'
+// We create a variable 'code' set to the number '123'
+// If 'code' is equal to '123', 'secret' is set to string "super" and multiplies the value of 'code' by 2
+// Because this is true the console will log the response "super"
 
 //CODE
 /*
